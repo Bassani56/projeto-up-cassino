@@ -1,15 +1,21 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
 .overlay-double{
-    position: fixed; /* Fixa o modal na tela */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(192, 68, 68, 0.5); /* Fundo semi-transparente */
+    background: rgb(24, 11, 11); /* Fundo semi-transparente */
     display: flex;
     justify-content: center; /* Centraliza o modal horizontalmente */
     align-items: center; /* Centraliza o modal verticalmente */
-    z-index: 1000; /* Garante que o modal fique acima de outros elementos */
     flex-direction: column;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
 
 .content-double {
@@ -17,50 +23,65 @@
     box-shadow: 0 2px 10px rgba(179, 133, 133, 0.1);
      /* Opcional: adiciona bordas arredondadas ao modal */
      height: 450px;
-     width: calc(710px + 450px);
+     width: calc(735px + 325px);
      display: flex;
+     border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
 
 .left{
-    background-color: brown;
-    width: 450px;
+    background-color: #1a242d;
+    width: 325px;
     height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
 
 .right{
-    background-color: rgb(0, 255, 55);
-    width: 100%;
+    background-color: #1a242d;
+    width: 747px;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .up{
-    background-color: bisque;
+    background-color: rgb(24, 11, 11);
     height: 353px;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
+
+    .container-tempo{
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+       
+    }
    .espera{
      margin-top: 20px;
-     width: 750px;
-     background-color: blue;
+     width: 680px;
+     background-color: #1a242d;
      height: 38px;
      display: flex;
      align-items: center;
      justify-content: center;
+     
    }
       .tempo{
         background-color: red;
         height: 22px;
-        width: 690px;
+        width: 640px;
       }
 
 .down{
-    background-color: blueviolet;
+    background-color: #1a242d;
     height: calc(450px - 353px);
     width: 100%;
     
@@ -72,6 +93,7 @@
     border-radius: 5px;
     color: aliceblue;
     font-size: medium;
+    height: 50px;
 }
 
 .logout{
@@ -80,6 +102,7 @@
     border-radius: 5px;
     color: aliceblue;
     font-size: medium;
+    height: 50px;
 }
 
 .value{
@@ -88,4 +111,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 50px;
 }
+
+.historico-container {
+    background-color: #1a242d;
+    width: 1060px;
+    height: 738px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    gap: 0px; /* Espaçamento entre o h1 e os componentes */
+}
+
+.historico-container h1 {
+    margin-top: 0px;
+    color: #6087a8;
+    text-align: center; /* Centraliza o h1 */
+}
+
+.historico-components-wrapper {
+    display: flex;
+    justify-content: space-between; /* Distribui os componentes horizontalmente */
+    gap: 10px; /* Espaço entre os componentes */
+}
+
+.historico-component {
+    background-color: rgb(94, 67, 67);
+    width: 310px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+

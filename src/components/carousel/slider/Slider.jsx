@@ -27,7 +27,7 @@ export default function Slider({ settings, children }) {
             {...settings} // Configurações do Swiper
             ref={swiperRef} // Armazena a referência do Swiper
             modules={[Navigation, Autoplay]} // Adicionando o Autoplay como módulo
-            spaceBetween={24} 
+            spaceBetween={0} 
             slidesPerView={7} 
             navigation={true}
             loop={true} // Habilita o loop infinito
@@ -35,6 +35,7 @@ export default function Slider({ settings, children }) {
                 delay: 100, // Pequeno delay para simular movimento rápido
                 disableOnInteraction: false, // Mantém o autoplay após interação
             }}
+            
         >
             {React.Children.map(children, (child, index) => (
                 <SwiperSlide key={index}>
@@ -44,7 +45,7 @@ export default function Slider({ settings, children }) {
                             background: 
                                 index === 8 ? 'white' : 
                                 child > 7 ? 'red' : 
-                                'black'
+                                'rgb(15, 25, 35)'
                         }}
                     >
                         {child}
