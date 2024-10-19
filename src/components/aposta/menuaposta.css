@@ -1,0 +1,46 @@
+.menu-aposta{
+    width: 276px;
+    height: 385px;
+    background-color: rgb(194, 127, 127);
+    display: flex;
+    flex-direction: column;
+}
+
+.valor-aposta{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.valor-aposta button{
+    background-color: rgb(73, 51, 51);
+    color: hsl(0, 36%, 91%);
+    height: 52px;
+    width: 48px;
+}
+
+#quantia-apostar{
+    
+    width: 170px;
+    height: 48px;
+
+}
+
+
+.selecionar-cor{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.selecionar-cor button{
+    width: calc(100%/3);
+    height: 48px;
+    color: hsl(235, 25%, 90%);
+}
+
+.comecar-jogo{
+    top: 50px;
+    background-color: red;
+    border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+.bem-vindo{
+    background-color: rgb(43, 96, 143);
+    width: calc(100% - 1072px); /* Largura total menos 20px de cada lado (40px no total) */
+    background-color: #1a242d;
+    height: 300px;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 auto; /* Centraliza o menu */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.bem-vindo img {
+    background-color: rgb(223, 178, 178);
+    width:75%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: 75%; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+}

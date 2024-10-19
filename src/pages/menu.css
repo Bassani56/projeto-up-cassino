@@ -1,0 +1,7 @@
+.app-dash {
+    height: 100vh; /* Preenche 100% da altura da tela */
+    background-color: rgb(15, 25, 35);
+    display: flex; /* Define como flex container */
+    flex-direction: column; /* Exibe os itens verticalmente */
+    gap: 20px; /* Espaçamento vertical de 20px entre os itens */
+}

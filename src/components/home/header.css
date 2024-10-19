@@ -1,0 +1,30 @@
+.header{
+    background-color: rgb(15, 25, 35);
+    height: 64px;
+    display: flex;
+    justify-content: center; 
+    padding: 0 20px;
+    
+}
+
+.menu{
+    background-color: aliceblue;
+    width: calc(100% - 1072px); /* Largura total menos 20px de cada lado (40px no total) */
+    background-color: #ccc;
+    padding: 0px;
+    margin: 0 auto; /* Centraliza o menu */
+    display: flex;
+    justify-content: flex-end;
+}
+
+#button-entrar{
+    width: 80.39px;
+    background-color: rgb(15, 25, 35);
+    border-radius: 5px;
+}
+
+#button-cadastrar{
+    width: 105px;
+    background-color: rgb(241, 44, 76);
+    border-radius: 5px;
+}
