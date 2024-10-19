@@ -9,10 +9,10 @@ import { useNavigate } from 'react-router-dom'
 export default function Register(){
     const {setShowModelRegister, showModelRegister} = useContext(CurrentContext)
     
-    const [selectedClient, setSelectedClient] = useState('');
+    const [selectedPet, setSelectedPet] = useState('');
 
     const handleSelectChange = (event) => {
-        setSelectedClient(event.target.value);
+        setSelectedPet(event.target.value);
     };
     
     const navigate = useNavigate()
@@ -37,7 +37,7 @@ export default function Register(){
                     <select 
                         name="client" 
                         onChange={handleSelectChange} 
-                        value={selectedClient} 
+                        value={selectedPet} 
                         className="select-client-dropdown"
                     >
                         <option value="">Selecione um pet</option>
@@ -49,13 +49,13 @@ export default function Register(){
                     <div className='foto' >
 
                         {
-                            selectedClient === 'bolsonabo' && <img src={Proteger} alt="" />
+                            selectedPet === 'bolsonabo' && <img src={Proteger} alt="" />
                             
                         }
                         {
-                            selectedClient === 'lule' && <img src={Urgente} alt="" />
+                            selectedPet === 'lule' && <img src={Urgente} alt="" />
                         }
-                        {selectedClient.length < 1 ? (
+                        {selectedPet.length < 1 ? (
                             <img src={Escolha} alt="" />
                         ) : (
                             <button onClick={() => {navigate("/dashboard")}} >Comece já</button>

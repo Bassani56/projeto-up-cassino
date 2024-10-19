@@ -1,15 +1,18 @@
 .menu-aposta{
     width: 276px;
     height: 385px;
-    background-color: rgb(194, 127, 127);
+    background-color: #1a242d;
     display: flex;
     flex-direction: column;
 }
+
 
 .valor-aposta{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
 
 .valor-aposta button{
@@ -17,18 +20,20 @@
     color: hsl(0, 36%, 91%);
     height: 52px;
     width: 48px;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
 }
 
 #quantia-apostar{
     
     width: 170px;
     height: 48px;
-
+    
 }
 
 
 .selecionar-cor{
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -43,4 +48,11 @@
     top: 50px;
     background-color: red;
     border-radius: 5px;
+    border: 0.8px solid rgb(67, 68, 77);
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.comecar-jogo .hover{
+    background-color: blanchedalmond;
 }
