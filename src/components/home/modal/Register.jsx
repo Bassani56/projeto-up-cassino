@@ -32,8 +32,8 @@ export default function Register(){
                 <div className="modal-content-register cadastro">
                     <h2><strong>Bolazula</strong></h2>
                     <p>Cadastre-se na Bolazula</p>
-                    <input type="text" defaultValue={'Endereço de Email'} />
-                    <input type="text" defaultValue={'Senha'} />
+                    <input type="text" placeholder={'Endereço de Email'} />
+                    <input type="text" placeholder={'Senha'} />
                     <select 
                         name="client" 
                         onChange={handleSelectChange} 
@@ -61,13 +61,9 @@ export default function Register(){
                             <button onClick={() => {navigate("/dashboard")}} >Comece já</button>
                         )}
                     </div>
-
                 </div>
-
-                
             </div>
         )
     }
-
     return null
 }

@@ -20,12 +20,8 @@
     border-radius: 8px; /* Bordas arredondadas na imagem */
 }
 
-.h1-mensagem {
-    margin-top: 0px;
-    margin-left: 900px;
-    transform: translateX(-50%); /* Centraliza horizontalmente */
-    color: rgb(213, 238, 216); /* Cor do texto */
-    font-size: 45px; /* Aumenta o tamanho da fonte */
+h1{
+    font-size: 3rem; /* Aumenta o tamanho da fonte */
     text-align: center; /* Centraliza o texto */
 }
 

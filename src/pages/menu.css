@@ -1,6 +1,6 @@
 .app-dash {
     height: 100vh; /* Preenche 100% da altura da tela */
-    background-color: rgb(15, 25, 35);
+    background-color: rgb(42, 16, 128);
     /* background-color: blanchedalmond; */
     display: flex; /* Define como flex container */
     flex-direction: column; /* Exibe os itens verticalmente */
@@ -8,9 +8,7 @@
 }
 
 .sub-app-dash{
-    background-color: rgb(15, 25, 35);
     margin-top: 16px;
-    border: 0.8px solid rgb(15, 25, 90);
     height: 100%;
 }
 

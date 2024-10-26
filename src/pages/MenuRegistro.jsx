@@ -32,13 +32,13 @@ export default function MenuRegistro(){
                 <Bonus/>
                     <Header>
                         <button id="button-entrar">Entrar</button>
-                        <button onClick={() => {setShowModelRegister(true)}} id="button-cadastrar">Cadastre-se</button>
+                        <button id="button-cadastrar" onClick={() => {setShowModelRegister(true)}}>Cadastre-se</button>
                     </Header> 
                     
                 <div className="app-dash" >
                     <Span />
                     <div className="sub-app-dash">
-                        <h1 className='h1-mensagem' >Bem vindos ao <strong>Bolazula</strong></h1>
+                        <h1>Bem vindos ao <strong>Bolazula</strong></h1>
                          
                         <BoasVindas> 
                             <img src={logo}/>
