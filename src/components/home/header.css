@@ -1,17 +1,16 @@
-.header, .menu{
-    background-color: rgb(11, 2, 52);
-    height: 6vh;
-    text-align: center;
+header{
+    background-color: rgb(0, 9, 108);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 1% 1%;
+    border: 3px solid rgba(35, 46, 163, 0.363);
 }
 
 #button-entrar{
-    height: 100%;
-    border-radius: 5px;
     background-color: rgb(24, 132, 9);
 }
 
 #button-cadastrar{
-    height: 100%;
-    border-radius: 5px;
-    background-color: rgb(244, 44, 76);
+    background-color: rgb(241, 44, 76);
 }
